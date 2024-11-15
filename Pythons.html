@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Codes</title>
+    <style>
+        /* 全体の背景色と基本設定 */
+        body {
+            background-color: #f4f6f9; /* 明るいグレーの背景 */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* モダンで読みやすいフォント */
+            margin: 0;
+            padding: 0;
+            color: #2c3e50; /* ダークグレーの文字色 */
+        }
+
+        /* 上部テキストエリア */
+        .TextLine {
+            background-color: #34495e; /* 落ち着いたグレーの背景 */
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 30px;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .TextLine p {
+            margin: 0;
+        }
+
+        /* メインコンテンツエリア */
+        .Main {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        /* リンクのスタイル */
+        .Main a {
+            display: inline-block;
+            margin: 12px 0;
+            color: #3498db; /* 鮮やかな青 */
+            font-size: 18px;
+            text-decoration: none;
+            padding: 12px 25px;
+            border: 2px solid #3498db;
+            border-radius: 30px; /* 丸みを帯びたボタン */
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        /* リンクにホバー時のスタイル */
+        .Main a:hover {
+            background-color: #3498db; /* 背景色を青に */
+            color: white; /* 文字色を白に */
+            border-color: #2980b9; /* 少し暗めの青に */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 上部のタイトル -->
+    <div class="TextLine">
+        <p>Python Codes</p>
+    </div>
+
+    <!-- メインリンクセクション -->
+    <div class="Main">
+        <a href="./MemoryLimiter.py" download="MemoryLimiter.py">MemoryLimiter</a>
+        <a href="./TypeIf.py" download="TypingToolkit">TypingToolkit</a>
+    </div>
+</body>
+</html>
